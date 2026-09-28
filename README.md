@@ -1,5 +1,9 @@
 # Lyrics Video Maker Studio
 
+![Tests](https://github.com/YaterlanWEB/lewisyang/actions/workflows/tests.yml/badge.svg)
+![Python](https://img.shields.io/badge/Python-3.11%20%7C%203.12-3776AB?logo=python&logoColor=white)
+![Platform](https://img.shields.io/badge/Platform-Windows-0078D4?logo=windows&logoColor=white)
+
 一款面向中文歌曲的本地桌面工具：用标准歌词约束 Whisper 识别结果，生成更容易校对的 SRT 时间轴，并渲染为滚动歌词视频。
 
 > 当前状态：Windows 桌面测试版。音频与项目数据默认只在本机处理。
@@ -73,6 +77,8 @@ docs/                 架构和绿色版打包说明
 ```
 
 更多原理见 [架构说明](docs/ARCHITECTURE.md)，便携版目录见 [Windows 绿色版打包](docs/PORTABLE_BUILD.md)，隐私注意事项见 [SECURITY.md](SECURITY.md)。
+
+欢迎通过 Issue 提交可脱敏复现的问题，开发约定见 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
 ## 测试
 
