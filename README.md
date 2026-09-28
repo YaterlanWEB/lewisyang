@@ -1,6 +1,6 @@
 # Lyrics Video Maker Studio
 
-![Tests](https://github.com/YaterlanWEB/lewisyang/actions/workflows/tests.yml/badge.svg)
+![Tests](https://github.com/YaterlanWEB/lyrics-video-maker-studio/actions/workflows/tests.yml/badge.svg)
 ![Python](https://img.shields.io/badge/Python-3.11%20%7C%203.12-3776AB?logo=python&logoColor=white)
 ![Platform](https://img.shields.io/badge/Platform-Windows-0078D4?logo=windows&logoColor=white)
 
@@ -41,8 +41,8 @@ flowchart LR
 要求：Windows 10/11、Python 3.11 或 3.12、FFmpeg。
 
 ```powershell
-git clone https://github.com/YaterlanWEB/lewisyang.git
-cd lewisyang
+git clone https://github.com/YaterlanWEB/lyrics-video-maker-studio.git
+cd lyrics-video-maker-studio
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install --upgrade pip
@@ -100,3 +100,4 @@ python -m unittest discover -s tests -p "test_*.py" -v
 ## 许可
 
 本仓库暂未附加开源许可证。源码可供阅读和学习；复制、修改、再分发或商业使用的授权范围将在许可证确定后补充。
+
